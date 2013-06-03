@@ -12,20 +12,22 @@
 		}
 	</style>
 </head>
-<body>
+<body >
     <div data-role="page" >
  		<div data-role="panel" id="mypanel">
 		    <!-- panel content goes here -->
 		</div><!-- /panel -->
         <div data-role="header" data-position="fixed">
-            <h1 data-bind="text:title" ></h1>
+            <h1  style="font-family: MENKSOF0" data-bind="text:title" ></h1>
             <!-- <h1 style="font-family: DDC Uchen">ཀུལ་ཁུལ་གིལ་ངུལ།</h1> -->
-            <a href="#popupMenu" style="max-width:200px" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" class="ui-btn-right" data-bind="text:selectHint"></a>
+            <a href="#popupMenu" style="max-width:200px" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" class="ui-btn-right"  >
+            	<span style="font-family: MENKSOF0" data-bind="text:selectHint"></span>
+            </a>
             <div data-role="popup" id="popupMenu" data-theme="d">
                 <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d" data-bind="foreach:languagelist">
                 	<li>
                 		 <a data-bind="click: $parent.recentSearchClicked">
-				              <span data-bind="text: name"></span>
+				              <span  style="font-family: MENKSOF0"  data-bind="text: name"></span>
 				         </a>
                 	</li>
 				</ul>
@@ -33,13 +35,13 @@
         </div><!-- /header -->
         
         <div data-role="content">
-            <p data-bind="{html:pageContent,css:{rightAlign:enableRightAlign}}" ></p>
+            <p  style="font-family: MENKSOF0"  data-bind="{html:pageContent,css:{rightAlign:enableRightAlign}}" ></p>
         </div><!-- /content -->
         
         <div data-role="footer" data-position="fixed">
 	        <div id="footernavbar" data-role="navbar">
 	            <ul data-bind="foreach:navlist">
-	                <li><a href="#" data-bind="text:$data"></a></li> 
+	                <li><a href="#"  data-bind="text:$data"></a></li> 
 	            </ul>
 	        </div><!-- /navbar -->
 		</div><!-- /footer -->
