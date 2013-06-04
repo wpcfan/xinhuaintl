@@ -10,6 +10,15 @@
 		.rightAlign{
 			text-align: right;
 		}
+		.menfont{
+			font-family: MENKSOF0;
+		}
+		.zangfont{
+			font-family: DDC Uchen;
+		}
+		.weifont{
+			font-family: GeezaPro;
+		}
 	</style>
 </head>
 <body >
@@ -18,24 +27,24 @@
 		    <!-- panel content goes here -->
 		</div><!-- /panel -->
         <div data-role="header" data-position="fixed">
-            <h1  style="font-family: MENKSOF0" data-bind="text:title" ></h1>
+            <h1 data-bind="{text:title,css:fontfamily}" ></h1>
             <!-- <h1 style="font-family: DDC Uchen">ཀུལ་ཁུལ་གིལ་ངུལ།</h1> -->
-            <a href="#popupMenu" style="max-width:200px" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" class="ui-btn-right"  >
-            	<span style="font-family: MENKSOF0" data-bind="text:selectHint"></span>
+            <a href="#popupMenu" style="max-width:150px" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" class="ui-btn-right"  >
+            	<span data-bind="{text:selectHint,css:fontfamily}"></span>
             </a>
             <div data-role="popup" id="popupMenu" data-theme="d">
                 <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d" data-bind="foreach:languagelist">
                 	<li>
                 		 <a data-bind="click: $parent.recentSearchClicked">
-				              <span  style="font-family: MENKSOF0"  data-bind="text: name"></span>
+				              <span data-bind="{text: name,css:$parent.fontfamily}"></span>
 				         </a>
                 	</li>
 				</ul>
             </div>
         </div><!-- /header -->
         
-        <div data-role="content">
-            <p  style="font-family: MENKSOF0"  data-bind="{html:pageContent,css:{rightAlign:enableRightAlign}}" ></p>
+        <div data-role="content" data-bind="css:fontfamily">
+            <p data-bind="{html:pageContent,css:{rightAlign:enableRightAlign}}" ></p>
         </div><!-- /content -->
         
         <div data-role="footer" data-position="fixed">
