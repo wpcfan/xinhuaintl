@@ -1,15 +1,14 @@
 @font-face { 
 font-family: 'DDC Uchen'; /* 字体名称,可自己定义 */ 
-src: url('../fonts/lt.full.ttf') format('truetype');
+src: url('../fonts/DDC_Uchen.ttf') format('truetype');
 } 
 @font-face { 
-font-family: 'GeezaPro'; /* 字体名称,可自己定义 */ 
+font-family: 'Geeza Pro'; /* 字体名称,可自己定义 */ 
 src: url('../fonts/GeezaPro.ttf') format('truetype');
 } 
-@font-face {
-font-family: 'MENKSOF0';
-font-style:  normal;
-font-weight: normal;
-src:url("../fonts/Menksoft2007.woff") format("woff");
-}
+@font-face { 
+font-family: 'Mongolian White'; /* 字体名称,可自己定义 */ 
+src: url('../fonts/mnglwhiteotf.ttf') format('truetype');
+} 
+
 
