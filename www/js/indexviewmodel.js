@@ -21,10 +21,10 @@ var indexviewmodel = {
 		console.log(item.name);
 		if(item.index == 1){
 			indexviewmodel.fontfamily('zangfont');
-			$('#footernavbar li:eq(0) a').html('<a data-bind="css:fontfamily" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">དཀར   དགའ  དང</span></span></a>');
-			$('#footernavbar li:eq(1) a').html('<a data-bind="css:fontfamily" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">སྦྱང་ཚན་གཉ</span></span></a>');
-			$('#footernavbar li:eq(2) a').html('<a data-bind="css:fontfamily" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ཀིལ་ཁིལ་གིལ་ངིལ།</span></span></a>');
-			$('#footernavbar li:eq(3) a').html('<a data-bind="css:fontfamily" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ཀོན་ཁོན་གོན་ངོན།</span></span></a>');
+			$('#footernavbar li:eq(0) a').html('<a style="font-family:DDC Uchen" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">དཀར   དགའ  དང</span></span></a>');
+			$('#footernavbar li:eq(1) a').html('<a style="font-family:DDC Uchen" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">སྦྱང་ཚན་གཉ</span></span></a>');
+			$('#footernavbar li:eq(2) a').html('<a style="font-family:DDC Uchen" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ཀིལ་ཁིལ་གིལ་ངིལ།</span></span></a>');
+			$('#footernavbar li:eq(3) a').html('<a style="font-family:DDC Uchen" href="#" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ཀོན་ཁོན་གོན་ངོན།</span></span></a>');
 			indexviewmodel.languagelist(
 				[
 					{name:'དེ། ། ',index:0},
@@ -43,10 +43,10 @@ var indexviewmodel = {
 		}else if(item.index == 2){
 			indexviewmodel.fontfamily('menfont');
 			
-			$('#footernavbar li:eq(0) a').html('<a data-bind="css:fontfamily" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text"> </span></span></a>');
-			$('#footernavbar li:eq(1) a').html('<a data-bind="css:fontfamily" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text"></span></span></a>');
-			$('#footernavbar li:eq(2) a').html('<a data-bind="css:fontfamily" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">     </span></span></a>');
-			$('#footernavbar li:eq(3) a').html('<a data-bind="css:fontfamily" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">  </span></span></a>');
+			$('#footernavbar li:eq(0) a').html('<a style="font-family:Mongolian White" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ᠡᠷᠭᠢᠭᠦᠯᠦᠨ</span></span></a>');
+			$('#footernavbar li:eq(1) a').html('<a style="font-family:Mongolian White" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ᠴᠠᠭᠠᠷᠠᠪᠠᠯ</span></span></a>');
+			$('#footernavbar li:eq(2) a').html('<a style="font-family:Mongolian White" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ᠣᠷᠤᠳᠠᠭ</span></span></a>');
+			$('#footernavbar li:eq(3) a').html('<a style="font-family:Mongolian White" href="#"  style="font-family: MENKSOF0" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="a" data-inline="true" class="ui-btn ui-btn-up-a ui-btn-inline"><span class="ui-btn-inner"><span class="ui-btn-text">ᠰᠢᠦ</span></span></a>');
 			indexviewmodel.languagelist(
 				[
 					{name:'ᠰᠤᠷᠠᠭ ᠴᠢᠮᠡᠭᠡ',index:0},
